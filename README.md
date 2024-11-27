@@ -59,7 +59,7 @@ The following test cases were automated using **Selenium** and **Java**:
 
 ## 📜 **Learn More About XFlix**  
 
-- [📘 XFlix Documentation](#) _([Xflix website](https://xflix-qa.vercel.app/))_  
+- [📘 XFlix Documentation](#) _([Project website](https://www.crio.do/learn/portfolio/gourab-pal-gpal/ME_QA_XFLIX/))_  
 - [🌐 Live Website](#) _([Xflix website](https://xflix-qa.vercel.app/))_  
 
 ---
