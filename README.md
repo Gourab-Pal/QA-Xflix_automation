@@ -59,25 +59,11 @@ The following test cases were automated using **Selenium** and **Java**:
 
 ## 📜 **Learn More About XFlix**  
 
-
-
-
-
-
-
-
-
-### Key Features:
-1. **Icons and badges**: Highlights tools like Selenium, Java, and automation features (waits, window, and alert handling).  
-2. **Images**: Replace `xflix_homepage.png` and `xflix_upload_alert.png` with the actual paths or filenames for your images.  
-3. **Links**: Includes placeholders for the live website and documentation.  
-
-Let me know if you'd like to tweak anything further! 😊
-
-
 - [📘 XFlix Documentation](#) _([Xflix website](https://xflix-qa.vercel.app/))_  
 - [🌐 Live Website](#) _([Xflix website](https://xflix-qa.vercel.app/))_  
 
 ---
+
+
 
 
