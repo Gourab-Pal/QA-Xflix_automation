@@ -1,0 +1,118 @@
+{
+  "instruction_set": [
+    {
+      "description": "TestCase01: Verify the Xflix Homepage URL",
+      "validations": [
+        {
+          "object_notation": "COMMAND",
+          "operator": "contains",
+          "expected_value": "xflix"
+        },
+        {
+          "object_notation": "RESPONSE",
+          "operator": "contains",
+          "expected_value": "Navigate"
+        }
+      ],
+      "error_out": "Navigate to the XFlix website",
+      "hint": "TestCase 1: Ensure that you are on the XFlix homepage with the correct URL."
+    },
+    {
+      "description": "TestCase01: Verify the Xflix Homepage URL",
+      "validations": [
+        {
+          "object_notation": "COMMAND",
+          "operator": "contains",
+          "expected_value": "GetUrl"
+        },
+        {
+          "object_notation": "RESPONSE",
+          "operator": "contains",
+          "expected_value": "xflix"
+        }
+      ],
+      "error_out": "Get the URL of the page and verify",
+      "hint": "TestCase 1: Ensure that you check the url of the page contains xflix"
+    },
+    {
+      "description": "TestCase 2: Verify Search Functionality",
+      "validations": [
+        {
+          "object_notation": "COMMAND",
+          "operator": "contains",
+          "expected_value": "TypeElement"
+        },
+        {
+          "object_notation": "COMMAND",
+          "operator": "contains",
+          "expected_value": "frameworks"
+        }
+      ],
+      "error_out": "Search for the keyword 'frameworks' and verify the search results",
+      "hint": "TestCase 2: Ensure that you search for 'frameworks' and verify the search results contain the keyword."
+    },
+    {
+      "description": "TestCase 2: Verify Search Functionality",
+      "validations": [
+        {
+          "object_notation": "COMMAND",
+          "operator": "contains",
+          "expected_value": "TypeElement"
+        },
+        {
+          "object_notation": "COMMAND",
+          "operator": "contains",
+          "expected_value": "selenium"
+        }
+      ],
+      "error_out": "Search for selenium and verify no results are found",
+      "hint": "TestCase 2: Ensure that you search for 'selenium' and verify that no results are found."
+    },
+    {
+      "description": "TestCase 3: Verify the Functionality of Filters",
+      "validations": [
+        {
+          "object_notation": "COMMAND",
+          "operator": "contains",
+          "expected_value": "FindChildElements"
+        },
+        {
+          "object_notation": "COMMAND",
+          "operator": "contains",
+          "expected_value": "Sort By: View Count"
+        }
+      ],
+      "error_out": "Sort the search results by 'View Count' and verify the order",
+      "hint": "TestCase 3: Ensure that you sort the search results by 'View Count' and verify the order is different from the default."
+    },
+    {
+      "description": "TestCase 4: Verify the Functionality of Upload Video",
+      "validations": [
+        {
+          "object_notation": "COMMAND",
+          "operator": "contains",
+          "expected_value": "GetAlertMessage"
+        },
+        {
+          "object_notation": "RESPONSE",
+          "operator": "contains",
+          "expected_value": "Video Posted Successfully!"
+        }
+      ],
+      "error_out": "Test the video upload functionality",
+      "hint": "TestCase 4: Ensure that you fill out all the required fields and verify that the video is uploaded successfully."
+    },
+    {
+      "description": "TestCase 5: Verify the Like Counter Functionality",
+      "validations": [
+        {
+          "object_notation": "COMMAND",
+          "operator": "contains",
+          "expected_value": "SwitchToWindow"
+        }
+      ],
+      "error_out": "Like a video and verify the like state across tabs",
+      "hint": "TestCase 5: Ensure that you like a video, open a new tab, and verify that the like state is preserved."
+    }
+  ]
+}
