@@ -38,10 +38,10 @@ The following test cases were automated using **Selenium** and **Java**:
 
 ## 📸 **Snapshots of the Work**  
 ### **Homepage Automation in Action**  
-![Image1](image)  
+![Image1](xflix_homepage.png)  
 
 ### **Video Upload Test**  
-![Image2](Image2)  
+![Image2](xflix_upload_alert.png)  
 
 ---
 
